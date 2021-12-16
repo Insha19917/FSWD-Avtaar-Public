@@ -1,3 +1,5 @@
+#Code starts
+
 import random
 import math
 import datetime
