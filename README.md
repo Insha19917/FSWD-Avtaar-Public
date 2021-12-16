@@ -7,4 +7,5 @@ Steps to perform:
 3) Enter a desired username as input when asked
 4) The output will show entered username, unique id (different for all users) and Date&Time when it is being performed.
 
+Output is as follows: 
 ![image](https://user-images.githubusercontent.com/80456518/146353876-ed877e93-adb9-438d-8d83-15aea7258c0c.png)
