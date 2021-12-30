@@ -1,11 +1,26 @@
 1. Query to create the user table
+![MySQL 8 0 Command Line Client 23-12-2021 4 59 48 PM (3)](https://user-images.githubusercontent.com/80456518/147748254-e34e3a9e-f7e5-45ec-b54d-229a0efccbdb.png)
+![MySQL 8 0 Command Line Client 23-12-2021 4 59 48 PM (4)](https://user-images.githubusercontent.com/80456518/147748442-6af03a33-b05e-4199-b42a-7d54fc80d76a.png)
+
 2. Query to create the events table
+![MySQL 8 0 Command Line Client 23-12-2021 5 00 08 PM (2)](https://user-images.githubusercontent.com/80456518/147748320-2a9036b2-7dbc-4ad0-a0ee-b53551c0d6be.png)
+![MySQL 8 0 Command Line Client 23-12-2021 5 00 08 PM (3)](https://user-images.githubusercontent.com/80456518/147748381-a02a22e8-5628-4e30-92e4-edd1f5611386.png)
+
 3. Query to insert into user table
+![MySQL 8 0 Command Line Client 23-12-2021 5 00 27 PM (3)](https://user-images.githubusercontent.com/80456518/147748494-ff8595f9-a2e9-4142-af97-b0da5c8f5661.png)
+
 4. Query to insert into events table
+![MySQL 8 0 Command Line Client 23-12-2021 5 00 43 PM (2)](https://user-images.githubusercontent.com/80456518/147748637-43c7de58-3cb7-4e7a-8436-de5435343fcb.png)
+
 5. Query to get all events for today -> both yearly and Onetime
+![MySQL 8 0 Command Line Client 24-12-2021 1 38 10 AM (2)](https://user-images.githubusercontent.com/80456518/147748613-b8432661-6d75-4b73-9a10-f4534f16f83a.png)
+
 6. Query to get all users for a list of uid
+
 7. Query to get all events for a uid
-8. Query to get all events for next 7 days
+
+8. Query to get all events for next 7 days (optional)
+
 
 Screenshot of table with atleast 5 Users and 25 events:
 1. User table:
