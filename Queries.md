@@ -13,7 +13,7 @@
 ![MySQL 8 0 Command Line Client 23-12-2021 5 00 43 PM (2)](https://user-images.githubusercontent.com/80456518/147748637-43c7de58-3cb7-4e7a-8436-de5435343fcb.png)
 
 5. Query to get all events for today -> both yearly and Onetime
-![MySQL 8 0 Command Line Client 24-12-2021 1 38 10 AM (2)](https://user-images.githubusercontent.com/80456518/147748613-b8432661-6d75-4b73-9a10-f4534f16f83a.png)
+![MySQL 8 0 Command Line Client 30-12-2021 5 47 07 PM (2)](https://user-images.githubusercontent.com/80456518/147751306-01f74ad5-d8bb-40e1-87e1-139c48800d92.png)
 
 6. Query to get all users for a list of uid
 ![MySQL 8 0 Command Line Client 30-12-2021 5 40 40 PM (2)](https://user-images.githubusercontent.com/80456518/147750833-09e4f8bb-4475-4ec3-a9b4-87f32d05c0e5.png)
