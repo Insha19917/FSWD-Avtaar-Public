@@ -16,11 +16,12 @@
 ![MySQL 8 0 Command Line Client 24-12-2021 1 38 10 AM (2)](https://user-images.githubusercontent.com/80456518/147748613-b8432661-6d75-4b73-9a10-f4534f16f83a.png)
 
 6. Query to get all users for a list of uid
-![image](https://user-images.githubusercontent.com/80456518/147750606-2080b9ba-c920-4cd8-b59a-fc21946536ff.png)
+![MySQL 8 0 Command Line Client 30-12-2021 5 40 40 PM (2)](https://user-images.githubusercontent.com/80456518/147750833-09e4f8bb-4475-4ec3-a9b4-87f32d05c0e5.png)
 
 
 7. Query to get all events for a uid
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/80456518/147750553-91b33b89-1473-43c2-8ead-ba876c9cbd17.png">
+![Select MySQL 8 0 Command Line Client 30-12-2021 5 39 38 PM (2)](https://user-images.githubusercontent.com/80456518/147750766-24f02803-ef95-4ed2-b75c-123e060cd2ac.png)
+
 
 8. Query to get all events for next 7 days (optional)
 
