@@ -1,3 +1,5 @@
+#ASSIGNMENT 3
+
 1. Query to create the user table
 ![MySQL 8 0 Command Line Client 23-12-2021 4 59 48 PM (3)](https://user-images.githubusercontent.com/80456518/147748254-e34e3a9e-f7e5-45ec-b54d-229a0efccbdb.png)
 ![MySQL 8 0 Command Line Client 23-12-2021 4 59 48 PM (4)](https://user-images.githubusercontent.com/80456518/147748442-6af03a33-b05e-4199-b42a-7d54fc80d76a.png)
