@@ -31,6 +31,6 @@ Screenshot of table with atleast 5 Users and 25 events:
 ![MySQL 8 0 Command Line Client 23-12-2021 5 00 27 PM (2)](https://user-images.githubusercontent.com/80456518/147747924-45ede811-b9f2-4c9a-a051-85e40c7f97cc.png)
 
 2. Events table:
-![MySQL 8 0 Command Line Client 23-12-2021 5 00 55 PM (2)](https://user-images.githubusercontent.com/80456518/147747980-57a52625-e559-45da-abec-c9902b257168.png)
+![MySQL 8 0 Command Line Client 30-12-2021 5 51 09 PM (2)](https://user-images.githubusercontent.com/80456518/147751539-8093ba36-32b8-4177-8bfe-6a936431e282.png)
 
 
