@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#150734">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 1: Pizza"
+                    android:id="@+id/pizza"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: Insha"
+                    android:id="@+id/pizza_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/pizza"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 05-01-2022"
+                    android:id="@+id/pizza_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/pizza_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 2: Burger"
+                    android:id="@+id/burger"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/pizza_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: XYZ"
+                    android:id="@+id/burger_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/burger"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 09-01-2022"
+                    android:id="@+id/burger_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/burger_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 3: Wrap"
+                    android:id="@+id/wrap"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/burger_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: IJK"
+                    android:id="@+id/wrap_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/wrap"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 11-01-2022"
+                    android:id="@+id/wrap_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/wrap_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 4: Hot-dog"
+                    android:id="@+id/hotdog"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/wrap_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: PQR"
+                    android:id="@+id/hotdog_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/hotdog"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 12-01-2022"
+                    android:id="@+id/hotdog_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/hotdog_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 5: Smoothie"
+                    android:id="@+id/smoothie"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/hotdog_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: Insha"
+                    android:id="@+id/smoothie_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/smoothie"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 05-01-2022"
+                    android:id="@+id/smoothie_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/smoothie_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 6: Juice"
+                    android:id="@+id/juice"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/smoothie_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: XYZ"
+                    android:id="@+id/juice_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/juice"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 09-01-2022"
+                    android:id="@+id/juice_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/juice_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 7: Fudge"
+                    android:id="@+id/fudge"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/juice_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: IJK"
+                    android:id="@+id/fudge_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/fudge"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 11-01-2022"
+                    android:id="@+id/fudge_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/fudge_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 8: Hot-choclate"
+                    android:id="@+id/hotchoclate"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/fudge_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: PQR"
+                    android:id="@+id/hotchoclate_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/hotchoclate"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 12-01-2022"
+                    android:id="@+id/hotchoclate_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/hotchoclate_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 9: Pani-puri"
+                    android:id="@+id/panipuri"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/hotchoclate_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: Insha"
+                    android:id="@+id/panipuri_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/panipuri"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 05-01-2022"
+                    android:id="@+id/panipuri_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/panipuri_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 10: Coca-cola"
+                    android:id="@+id/coc"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/panipuri_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: XYZ"
+                    android:id="@+id/coc_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/coc"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 09-01-2022"
+                    android:id="@+id/coc_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/coc_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 11: Ice-cream"
+                    android:id="@+id/icecream"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/coc_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: IJK"
+                    android:id="@+id/icecream_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/icecream"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 11-01-2022"
+                    android:id="@+id/icecream_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/icecream_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 12: Salad"
+                    android:id="@+id/salad"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/icecream_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: PQR"
+                    android:id="@+id/salad_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/salad"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 12-01-2022"
+                    android:id="@+id/salad_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/salad_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 13: Sandwitch"
+                    android:id="@+id/sandwitch"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/salad_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: Insha"
+                    android:id="@+id/sandwitch_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/sandwitch"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 05-01-2022"
+                    android:id="@+id/sandwitch_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/sandwitch_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 14: Fries"
+                    android:id="@+id/fries"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/sandwitch_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: XYZ"
+                    android:id="@+id/fries_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/fries"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 09-01-2022"
+                    android:id="@+id/fries_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/fries_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 15: Hamburger"
+                    android:id="@+id/hamburger"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/fries_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: IJK"
+                    android:id="@+id/hamburger_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/hamburger"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 11-01-2022"
+                    android:id="@+id/hamburger_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/hamburger_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 16: Soup"
+                    android:id="@+id/soup"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/hamburger_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: PQR"
+                    android:id="@+id/soup_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/soup"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 12-01-2022"
+                    android:id="@+id/soup_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/soup_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 17: Lollypop"
+                    android:id="@+id/lollypop"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/soup_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: Insha"
+                    android:id="@+id/lollypop_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/lollypop"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 05-01-2022"
+                    android:id="@+id/lollypop_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/lollypop_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 18: Crispy"
+                    android:id="@+id/crispy"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/lollypop_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: XYZ"
+                    android:id="@+id/crispy_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/crispy"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 09-01-2022"
+                    android:id="@+id/crispy_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/crispy_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 19: Gravies"
+                    android:id="@+id/gravy"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/crispy_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: IJK"
+                    android:id="@+id/gravy_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/gravy"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 11-01-2022"
+                    android:id="@+id/gravy_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/gravy_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item 20: Cutlet"
+                    android:id="@+id/cutlet"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/gravy_date"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner: PQR"
+                    android:id="@+id/cutlet_owner"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/cutlet"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bookend until: 12-01-2022"
+                    android:id="@+id/cutlet_date"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@id/cutlet_owner"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30dp">
+                </TextView>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scroll-up"
+                    style="@style/Animation.Design.BottomSheetDialog"
+                    android:layout_below="@+id/cutlet_date"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="150dp">
+                </Button>
+
+            </RelativeLayout>
+        </LinearLayout>
+></ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
