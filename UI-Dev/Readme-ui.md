@@ -1,4 +1,4 @@
-#UI Development by Insha Mulla (basic)
+#UI Development by Insha Mulla
 
 1. Screenshot of app in Emulator
 <img width="281" alt="App_icon" src="https://user-images.githubusercontent.com/80456518/148136635-2a903606-e6fb-4b7e-8e4f-b3b581c30887.png">
